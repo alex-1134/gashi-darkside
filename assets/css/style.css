@@ -23,23 +23,51 @@ body {
 
 .form {
     margin-top: 200px;
-    margin-left: 300px;
+    margin-left: 350px;
     position: absolute;
     
     color:rgb(192, 250, 250);
-    background-color: rgba(240, 207, 208, 0.3);
+    background-color: rgba(240, 207, 208, 0.1);
+    border: 1px solid white;
 
     box-sizing: border-box;
-    width: 300px;
-    height: 150px;   
+    width: 350px;
+    height: 200px;   
+
+    padding: 10px 0 10px 0;
  }
 
  .email, .name, .send {
-display: block;
+    display: block;
+    padding-left: 10px;
+ }
+
+ .legend {
+     text-transform: uppercase;
+     font-size: 100%;
+     margin-left: 10px;
  }
 
  .send {
      margin-top: 15px;
+     margin-left: 10px;
+     background-color: rosybrown;
+     opacity: 0.6;
+     color:rgb(192, 250, 250);
+     text-transform: uppercase;
+     text-align: auto;
+ }
+
+ .send:hover {
+    background-color: rosybrown;
+    opacity: 0.9;
+ }
+
+ #name-field, #email-field {
+     margin-left: 10px;
+     background-color: rgb(192, 250, 250);
+     opacity: 0.4;
+     color: black;
  }
 
 #menu {
@@ -68,7 +96,7 @@ display: block;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid rgba(192, 250, 250);
+    color: rosybrown;
 }
 
 
