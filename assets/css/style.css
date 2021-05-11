@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@700&display=swap');
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background: url("/assets/images/live2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+
+#menu {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-right: 100px;
+}
+
+#menu li {
+    float: right;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(192, 250, 250);
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid rgba(192, 250, 250);
+}
+
+
+/*..................................ALBUM COVER*/
+
+#album-cover {
+    background-color: rgba(240, 207, 208, 0.3);
+
+    font-size: 140%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+
+    width: 200px;
+    height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0;
+    border-radius: 50%;
+
+    position: fixed;
+
+    bottom: 20px;
+    right: 100px;
+
+    animation-name: gashi-zoom;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+}
+
+@keyframes gashi-zoom {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+span {
+    color: white;
+    font-weight: bolder;
+}
+
