@@ -19,6 +19,29 @@ body {
 }
 
 
+/*..........................................FORM*/
+
+.form {
+    margin-top: 200px;
+    margin-left: 300px;
+    position: absolute;
+    
+    color:rgb(192, 250, 250);
+    background-color: rgba(240, 207, 208, 0.3);
+
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;   
+ }
+
+ .email, .name, .send {
+display: block;
+ }
+
+ .send {
+     margin-top: 15px;
+ }
+
 #menu {
     list-style-type: none;
     text-transform: uppercase;
@@ -37,6 +60,7 @@ body {
     font-weight: 100;
     font-size: 100%;
     font-family: 'Fjalla One', sans-serif;
+    display: inline-block;
 }
 
 .active {
@@ -70,7 +94,7 @@ body {
     position: fixed;
 
     bottom: 20px;
-    right: 100px;
+    right: 90px;
 
     animation-name: gashi-zoom;
     animation-fill-mode: forwards;
@@ -91,6 +115,10 @@ span {
     color: white;
     font-weight: bolder;
 }
+
+
+
+
 
 
 
@@ -124,6 +152,31 @@ footer {
 }
 
 
+@media screen and (max-width: 1396px) {
+    body {
+        background: url("/assets/images/live222.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+          -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    }
+
+    #album-cover {
+        display: none;
+    }
+  
+}
+
+
+@media screen and (max-width: 943px) {
+
+    #album-cover {
+        display: none;
+    }
+
+}
+
+
 @media screen and (max-width: 800px) {
     body {
     background-color: black;
@@ -135,7 +188,7 @@ footer {
     }
 
     #menu li {
-        float: auto;
+        float: right;
     }
 
     #menu a {
@@ -143,91 +196,19 @@ footer {
         letter-spacing: 2px;
         margin-left: 5px;
         padding-top: 15%;
+        display: inline-block;
     }
 
-    
-#album-cover {
-    background-color: rgba(95, 8, 14, 0.3);
-    color: rgba(195, 196, 153, 0.3);
-    font-size: 70%;
-    text-transform: uppercase;
-    text-align: center;
-
-    
-    width: 150px;
-    height: 150px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: auto;
-    padding-right: auto;
-    margin: 0;
-    margin-top: 30px;
-    border-radius: 50%;
-
-    position: fixed;
-    opacity: 0.7;
-
-    top: 20px;
-   
-
-    animation-name: gashi-zoom;
-    animation-fill-mode: forwards;
-    animation-duration: 4s;
-}
-
-span {
-    color: white;
-    font-weight: bolder;
-}
-
-@keyframes gashi-zoom {
-    from {
-        transform: scale(0);
-    }
-
-    to {
-        transform: scale(1);
+    #album-cover {
+        display: none;
     }
 }
-}
 
-@media screen and (max-width: 1024px) {
-    body {
-        background: url("/assets/images/live222.jpg") no-repeat center center fixed; 
-        -webkit-background-size: cover;
-          -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-    }
+@media screen and (max-width: 300px) {
 
-        
-#album-cover {
-    background-color: rgba(95, 8, 14, 0.3);
-    color: rgba(195, 196, 153, 0.3);
-    font-size: 70%;
-    text-transform: uppercase;
-    text-align: center;
-
-    
-    width: 200px;
-    height: 200px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: auto;
-    padding-right: auto;
-    margin: 0;
-    margin-top: 30px;
-    border-radius: 50%;
-
-    position: fixed;
-    opacity: 0.7;
-
-    top: 70px;
-    left: 125px;
-   
-
-    animation-name: gashi-zoom;
-    animation-fill-mode: forwards;
-    animation-duration: 4s;
-}
+    #menu li {
+        display: block;
+        column-count: 2;
+        clear: both;
+        }
 }
