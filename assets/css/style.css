@@ -145,6 +145,8 @@ span {
 }
 
 
+/*......................................GALLERY*/
+
 
 
 
@@ -180,11 +182,14 @@ footer {
 }
 
 
+
+/*.......................................@MEDIA*/
+
 @media screen and (max-width: 1396px) {
     body {
-        background: url("/assets/images/live222.jpg") no-repeat center center fixed; 
-        -webkit-background-size: cover;
-          -moz-background-size: cover;
+     background: url("/assets/images/live222.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
     }
@@ -193,6 +198,11 @@ footer {
         display: none;
     }
   
+    .form {
+        margin-top: 100px;
+        margin-left: 350px;
+        position: absolute;
+    }
 }
 
 
@@ -202,6 +212,9 @@ footer {
         display: none;
     }
 
+    .form {
+        display: none;
+    }
 }
 
 
@@ -238,5 +251,9 @@ footer {
         display: block;
         column-count: 2;
         clear: both;
+    }
+
+    .form {
+            display: none;
         }
 }
