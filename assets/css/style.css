@@ -178,7 +178,7 @@ span {
     overflow-y: auto;
 
     box-sizing: border-box;
-    width: 650px;
+    width: 7000px;
     height: 400px;  
     
     text-transform: uppercase;
@@ -193,6 +193,7 @@ span {
     padding-top: 30px;
     background-color: rgba(240, 207, 208, 0.1);
     font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
     border-radius: 5%;
    
 }
