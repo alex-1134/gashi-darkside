@@ -11,7 +11,7 @@
 
 body {
     background-color: black;
-    background: url("assets/images/live2.jpg") no-repeat center center fixed; 
+    background: url("assets/images/back1.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -282,7 +282,7 @@ footer {
 
 @media screen and (max-width: 1396px) {
     body {
-     background: url("/assets/images/live222.jpg") no-repeat center center fixed; 
+     background: url("/assets/images/back3.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -338,7 +338,7 @@ footer {
 @media screen and (max-width: 800px) {
     body {
     background-color: black;
-    background: url("/assets/images/live22.jpg") no-repeat center center fixed; 
+    background: url("assets/images/back2.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
