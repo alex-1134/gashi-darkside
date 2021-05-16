@@ -171,6 +171,10 @@ span {
     object-fit: cover;
 }
 
+.item-14 {
+    margin-right: 0;
+}
+
 .horizontal_slider::-webkit-scrollbar {
    display: none;
   }
