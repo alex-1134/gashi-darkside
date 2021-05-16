@@ -15,7 +15,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-     background-size: cover;
+    background-size: cover;
 }
 
 /*..........................................FORM*/
@@ -162,6 +162,31 @@ span {
     object-fit: cover;
 }
 
+
+/*...................................GALLERY3*/
+
+.card {
+    height: 400px;
+    width: 300px;
+    display: inline;   
+}
+
+.gallery-img {
+    height: 400px;
+    max-width: auto;
+    object-fit: none;
+    opacity: 0.7;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 200px;
+    margin-left: 350px;
+    position: fixed;
+    width: 400px;
+}
 
 /*.........................................TOUR*/
 
@@ -337,3 +362,5 @@ footer {
             display: none;
         }
 }
+
+
