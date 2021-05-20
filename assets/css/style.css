@@ -105,23 +105,6 @@ body {
    color: rosybrown;
 }
 
-.switch1 {
-    position: absolute;
-    display: none;
-    top: 0.8rem;
-    right: 1rem;
-    width: 50px;
-    height: 50px;
-    flex-direction: column;
-    background-color: blue;
-}
-
-.switch1 .bar {
-    height: 3px;
-    width: 100%;
-    border-radius: 20%;
-}
-
 
 
 /*..................................ALBUM COVER*/
@@ -361,31 +344,50 @@ footer {
         object-fit: cover;
     }
 
-    .switch1 {
-        display: flex;
+    .mobile {
+        max-width: 943px;
+        margin: auto;
+        background-color: white;
+        height: 500px;
+        color: black;
+        border-radius: 10px;
     }
+
+    .menu-switch {
+        overflow-y: hidden;
+        background-color: #333;
+        position: relative;
+        float: right;
+        margin:10%;
+    }
+
+
+
+    .menu-switch a {
+        color: blue;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+
+    .menu-switch a.icon {
+        background: pink;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+.menu-switch a:hover {
+    background-color: yellowgreen;
+    color: black;
+}
 
     #menu li {
         display: none;
         width: 100%;
-    }
-
-    #menu {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    #menu li li {
-        text-align: center;
-    }
-
-    #menu li u {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    #menu li a {
-        padding: 0.5rem 1rem;
     }
 }
 

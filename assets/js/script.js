@@ -1,5 +1,8 @@
-const switch1 = document.getElementsByClassName('switch1')[0]
-const menuli = document.getElementById('menu li')[0]
-switch1.addEventListener('click', () => {
-menuli.classList.switch1('active')
-})
+function myFunction() {
+  var x = document.getElementById("menu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
