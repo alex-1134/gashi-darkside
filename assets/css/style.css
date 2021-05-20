@@ -7,6 +7,7 @@
     border: 0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -79,6 +80,12 @@ body {
     float: right;
 }
 
+#menu li ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
 #menu a {
     text-decoration: none;
     color: rgb(192, 250, 250);
@@ -97,6 +104,25 @@ body {
 #menu a:hover {
    color: rosybrown;
 }
+
+.switch1 {
+    position: absolute;
+    display: none;
+    top: 0.8rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.switch1 .bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 20%;
+}
+
+
 
 /*..................................ALBUM COVER*/
 
@@ -333,8 +359,35 @@ footer {
         width: 300px;
         height: 400px;
         object-fit: cover;
-}
+    }
 
+    .switch1 {
+        display: flex;
+    }
+
+    #menu li {
+        display: none;
+        width: 100%;
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #menu li li {
+        text-align: center;
+    }
+
+    #menu li u {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #menu li a {
+        padding: 0.5rem 1rem;
+    }
+}
 
 @media screen and (max-width: 800px) {
     body {
@@ -351,7 +404,7 @@ footer {
     }
 
     #menu a {
-        font-size: 60%;
+        font-size: 110%;
         letter-spacing: 2px;
         margin-left: 5px;
         padding-top: 15%;
@@ -361,19 +414,15 @@ footer {
     #album-cover {
         display: none;
     }
-}
 
-@media screen and (max-width: 300px) {
-
-    #menu li {
-        display: block;
-        column-count: 2;
-        clear: both;
+    .switch1 {
+        display: flex;
     }
 
-    .form {
-            display: none;
-        }
+    #menu li {
+        display: none;
+    }
 }
-}
+
+
 
