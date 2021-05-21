@@ -80,12 +80,6 @@ body {
     float: right;
 }
 
-#menu li ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
 #menu a {
     text-decoration: none;
     color: rgb(192, 250, 250);
