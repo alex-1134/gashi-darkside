@@ -1,0 +1,17 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    margin: 0;
+}
+
+.main-pic {
+    background: url("../images/live2.jpg") no-repeat;
+    max-height: 400px;
+
+}
