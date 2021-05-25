@@ -10,8 +10,8 @@ header {
     margin: 0;
 }
 
-.main-pic {
-    background: url("../images/live2.jpg") no-repeat;
-    max-height: 400px;
+.the-logo {
+    background: url("../images/the-logo.jpg");
+    max-height: 200px;
 
 }
