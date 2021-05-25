@@ -1,17 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+
+
+/*--------------------------------------------HEADING*/
 
 header {
     margin: 0;
 }
 
-.the-logo {
-    background: url("../images/the-logo.jpg");
-    max-height: 200px;
+.heading {
+    margin-left: 50px;
+}
 
+.logo {
+    background: url("../images/bw4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.elevators {
+    font-family: 'Bubbler One', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff
+
+}
+
+.bg-color {
+    background-color: rgb(185, 67, 67);
+    min-height: 120px;
+    font-family: 'Bubbler One', sans-serif;
+}
+
+.color-menu {
+    background-color: rgba(112, 113, 114, 0.945);
+    height: 60px;
+    align-items: center;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+    height: auto;
+    margin: 0;
+}
+
+#nav li {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 0;
+    
+    font-family: 'Bubbler One', sans-serif;
+    letter-spacing: 3px;
+}
+
+.list-inline-item:not(:last-child) {
+   margin: 0;
 }
