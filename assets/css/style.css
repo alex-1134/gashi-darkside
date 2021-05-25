@@ -74,6 +74,7 @@ body {
     list-style-type: none;
     text-transform: uppercase;
     margin-right: 100px;
+    position: fixed;
 }
 
 #menu li {
@@ -417,4 +418,55 @@ footer {
     }
 
 
+/*............BOOT............*/
+
+.container-md {
+    
+    border:0;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: inline;
+}
+
+.col {
+    border: 1px;
+    background-color: aqua;
+    height: 200px;
+    width: 50%;
+    display: block;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.red {
+    background-color: red;
+    width: auto;
+}
+
+.green {
+    width: 100%;
+    background-color: green;
+}
+
+
+@media screen and (min-width: 800px) {
+    .row {
+        display: inline;
+    }
+
+    .green {
+        width: 50%;
+}
+    .red {
+        width: 50%;
+    
+    }
+
+
+    }
 
