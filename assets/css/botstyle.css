@@ -22,6 +22,23 @@ header {
     min-height: 360px;
 }
 
+
+
+.bg-color {
+    background-color: #f8f1f1;
+    min-height: 360px;
+    font-family: 'Bubbler One', sans-serif;
+}
+
+.elevators-cover {
+    background-image: url("../images/back1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    margin: 0;
+}
+
 .elevators {
     font-family: 'Bubbler One', sans-serif;
     font-weight: 100;
@@ -30,14 +47,9 @@ header {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    color: #fff
-
-}
-
-.bg-color {
-    background-color: rgb(185, 67, 67);
-    min-height: 120px;
-    font-family: 'Bubbler One', sans-serif;
+    color: #fff;
+    filter: alpha(opacity=100);
+    opacity: 1;
 }
 
 .color-menu {
@@ -73,6 +85,41 @@ header {
     letter-spacing: 3px;
 }
 
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 2rem;
+}
+
+.hvr-sweep-to-top:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 2rem;
+}
+
+
 .list-inline-item:not(:last-child) {
    margin: 0;
+}
+
+
+footer {
+    margin: 0;
+
+}
+
+.footercontainer {
+    font-size: 0;
+    height: auto;
+    margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        background-position: unset;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .logo {
+        min-height: 480px;
+    }
 }
