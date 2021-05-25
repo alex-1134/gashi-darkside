@@ -12,7 +12,7 @@
 
 body {
     background-color: black;
-    background: url("assets/images/back1.jpg") no-repeat center center fixed; 
+    background: url("../images/back1.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,6 +70,9 @@ body {
      color: black;
  }
 
+
+/*......................................NAV BAR*/
+
 #menu {
     list-style-type: none;
     text-transform: uppercase;
@@ -100,9 +103,6 @@ body {
    color: rosybrown;
 }
 
-.mobile {
-    display: none;
-}
 
 /*..................................ALBUM COVER*/
 
@@ -287,140 +287,11 @@ footer {
 
 /*.......................................@MEDIA*/
 
-@media screen and (max-width: 1396px) {
-    body {
-     background: url("assets/images/back3.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-    }
-
-    #album-cover {
-        display: none;
-    }
-  
-    .form {
-        margin-top: 100px;
-        margin-left: 350px;
-        position: absolute;
-    }
-
-    .box {
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 40px;
-    }
-    
-    .box img {
-        width: 700px;
-        height: auto;
-        object-fit: cover;
-    }
-}
-
-
-@media screen and (max-width: 943px) {
-
-    #album-cover {
-        display: none;
-    }
-
-    .form {
-        display: none;
-    }
-
-    .item {
-        display: block;
-        margin-bottom: 10px;
-    }
-    
-    .item img {
-        width: 300px;
-        height: 400px;
-        object-fit: cover;
-    }
-
-    .mobile-gallery {
-    display: block;
-    width: 80%;
-    overflow-y: scroll;
-    margin-top: 150px;
-    box-sizing: border-box;
-    position: absolute;
-    margin-left: 50px;
-    margin-right: 50px;
-    align-items: center;
-    width: 80vw;
-}
-
-    .item {
-        display: block;
-        margin-right: 10px;
-    }
-
-    ::-webkit-scrollbar {
-        display: none;
-      }
-}
-
-@media screen and (max-width: 800px) {
-    body {
-    background-color: black;
-    background: url("assets/images/back2.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-    }
-
-    #menu li {
-        float: right;
-    }
-
-    #menu a {
-        font-size: 110%;
-        letter-spacing: 2px;
-        margin-left: 5px;
-        padding-top: 15%;
-        display: inline-block;
-    }
-
-    #album-cover {
-        display: none;
-    }
-
-    .horizontal-slider {
-        display: none;
-    }
-
-    .mobile-gallery {
-        display: block;
-        width: 100%;
-        overflow-y: scroll;
-        margin-top: 50px;
-        box-sizing: border-box;
-        position: absolute;
-        margin-left: 50px;
-        margin-right: 50px;
-        align-items: center;
-        width: 80vw;
-    }
-    
-    .item {
-        display: block;
-        margin-right: 10px;
-    }
-
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    }
 
 
 /*............BOOT............*/
 
-.container-md {
+.container-lg {
     
     border:0;
     margin: 0;
@@ -432,39 +303,70 @@ footer {
 }
 
 .col {
-    border: 1px;
-    background-color: aqua;
+    background-color: rgba(177, 245, 245, 0,9);
+    z-index: 1;
     height: 200px;
     width: 50%;
     display: block;
 }
 
-.col-md-12 {
+.one {
+    width: 100%;
+    background-color: pink;
+}
+
+.two {
+    background-color: red;
     width: 100%;
 }
 
-.red {
-    background-color: red;
-    width: auto;
-}
-
-.green {
+.three {
     width: 100%;
     background-color: green;
+}
+
+.four {
+    width: 100%;
+    background-color: blue;
 }
 
 
 @media screen and (min-width: 800px) {
     .row {
-        display: inline;
+        display: flex;
+        width: 100vw;
     }
 
-    .green {
-        width: 50%;
-}
-    .red {
-        width: 50%;
+    .row .one {
+        width: 100%;
+        background-color: pink;
+        
+    }
     
+    .row .two {
+        background-color: red;
+        width: 50%;
+        
+       
+    }
+    
+    .row .three {
+        width: 50%;
+        background-color: green;
+        
+    }
+    
+    .row .four {
+        width: 100%;
+        background-color: blue;
+        
+    }
+
+    .container-lg {
+        margin: 20px;
+        border: 0;
+        padding: 0; 
+      
     }
 
 

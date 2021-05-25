@@ -1,0 +1,232 @@
+
+@media screen and (max-width: 943px) {
+
+    #album-cover {
+        display: none;
+    }
+
+    .form {
+        display: none;
+    }
+
+    .item {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .item img {
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .mobile-gallery {
+    display: block;
+    width: 80%;
+    overflow-y: scroll;
+    margin-top: 150px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    width: 80vw;
+}
+
+    .item {
+        display: block;
+        margin-right: 10px;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+      }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+    background-color: black;
+    background: url("assets/images/back2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    }
+
+    #menu li {
+        float: right;
+    }
+
+    #menu a {
+        font-size: 110%;
+        letter-spacing: 2px;
+        margin-left: 5px;
+        padding-top: 15%;
+        display: inline-block;
+    }
+
+    #album-cover {
+        display: none;
+    }
+
+    .horizontal-slider {
+        display: none;
+    }
+
+    .mobile-gallery {
+        display: block;
+        width: 100%;
+        overflow-y: scroll;
+        margin-top: 50px;
+        box-sizing: border-box;
+        position: absolute;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+        width: 80vw;
+    }
+    
+    .item {
+        display: block;
+        margin-right: 10px;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    }
+
+
+
+
+
+    /*...............................................*/
+
+    @media screen and (max-width: 1396px) {
+        body {
+         background: url("assets/images/back3.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+        }
+    
+       
+      
+        .form {
+            margin-top: 100px;
+            margin-left: 350px;
+            position: absolute;
+        }
+    
+        .box {
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 40px;
+        }
+        
+        .box img {
+            width: 700px;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    
+    
+    @media screen and (max-width: 943px) {
+    
+        #album-cover {
+            display: none;
+        }
+    
+        .form {
+            display: none;
+        }
+    
+        .item {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .item img {
+            width: 300px;
+            height: 400px;
+            object-fit: cover;
+        }
+    
+        .mobile-gallery {
+        display: block;
+        width: 80%;
+        overflow-y: scroll;
+        margin-top: 150px;
+        box-sizing: border-box;
+        position: absolute;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+        width: 80vw;
+    }
+    
+        .item {
+            display: block;
+            margin-right: 10px;
+        }
+    
+        ::-webkit-scrollbar {
+            display: none;
+          }
+    }
+    
+    @media screen and (max-width: 800px) {
+        body {
+        background-color: black;
+        background: url("assets/images/back2.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+        }
+    
+        #menu li {
+            float: right;
+        }
+    
+        #menu a {
+            font-size: 110%;
+            letter-spacing: 2px;
+            margin-left: 5px;
+            padding-top: 15%;
+            display: inline-block;
+        }
+    
+        #album-cover {
+            display: none;
+        }
+    
+        .horizontal-slider {
+            display: none;
+        }
+    
+        .mobile-gallery {
+            display: block;
+            width: 100%;
+            overflow-y: scroll;
+            margin-top: 50px;
+            box-sizing: border-box;
+            position: absolute;
+            margin-left: 50px;
+            margin-right: 50px;
+            align-items: center;
+            width: 80vw;
+        }
+        
+        .item {
+            display: block;
+            margin-right: 10px;
+        }
+    
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        }
+    
