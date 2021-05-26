@@ -117,7 +117,9 @@ header {
     color: #fff;
 }
  
- 
+ .bw1 {
+     background-image: url("../images/bw1.jpg");
+ }
 
 
 @media screen and (max-width: 992px) {
