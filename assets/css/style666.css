@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background: url("../images/back1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*..........................................FORM*/
+
+.form {
+    margin-top: 200px;
+    margin-left: 350px;
+    position: absolute;
+    
+    color:rgb(192, 250, 250);
+    background-color: rgba(240, 207, 208, 0.1);
+    border: 1px solid white;
+
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;   
+
+    padding: 10px 0 10px 0;
+ }
+
+ .email, .name, .send {
+    display: block;
+    padding-left: 10px;
+ }
+
+ .legend {
+     text-transform: uppercase;
+     font-size: 100%;
+     margin-left: 10px;
+ }
+
+ .send {
+     margin-top: 15px;
+     margin-left: 10px;
+     background-color: rosybrown;
+     opacity: 0.6;
+     color:rgb(192, 250, 250);
+     text-transform: uppercase;
+     text-align: auto;
+ }
+
+ .send:hover {
+    background-color: rosybrown;
+    opacity: 0.9;
+ }
+
+ #name-field, #email-field {
+     margin-left: 10px;
+     background-color: rgb(192, 250, 250);
+     opacity: 0.4;
+     color: black;
+ }
+
+
+/*......................................NAV BAR*/
+
+#menu {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-right: 100px;
+    position: fixed;
+}
+
+#menu li {
+    float: right;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(192, 250, 250);
+    letter-spacing: 4px;
+    margin-left: 20px;
+    font-weight: 100;
+    font-size: 100%;
+    font-family: 'Fjalla One', sans-serif;
+    display: inline-block;
+}
+
+ #active {
+    border-bottom: 1px solid rgb(192, 250, 250);
+}
+
+#menu a:hover {
+   color: rosybrown;
+}
+
+
+/*..................................ALBUM COVER*/
+
+#album-cover {
+    background-color: rgba(240, 207, 208, 0.3);
+
+    font-size: 140%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0;
+    border-radius: 50%;
+
+    position: fixed;
+
+    bottom: 20px;
+    right: 90px;
+
+    animation-name: gashi-zoom;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+}
+
+@keyframes gashi-zoom {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+span {
+    color: white;
+    font-weight: bolder;
+}
+
+
+/*...................................GALLERY*/
+
+.horizontal-slider {
+    display: block;
+    width: 50%;
+    overflow-x: scroll;
+    margin-top: 150px;
+    box-sizing: border-box;
+    position: fixed;
+    margin-left: 350px;
+    align-items: center;
+}
+
+.slider-container {
+    display: block;
+    white-space: nowrap;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.item img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.item-14 {
+    margin-right: 0;
+}
+
+.horizontal_slider::-webkit-scrollbar {
+    scrollbar-width: 5px;
+  }
+   
+.horizontal_slider::-webkit-scrollbar-track {
+    background: rosybrown;
+  }
+  
+.horizontal_slider::-webkit-scrollbar-thumb {
+    background: rgb(192, 250, 250);
+  }
+  
+.horizontal_slider::-webkit-scrollbar-thumb:hover {
+    background: rgb(240, 207, 208);
+  }
+
+
+/*.........................................TOUR*/
+
+#tour {
+    margin-left: 250px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    color:rgb(192, 250, 250);
+    
+    position: fixed;
+    overflow-y: auto;
+
+    box-sizing: border-box;
+    width: 7000px;
+    height: 400px;  
+    
+    text-transform: uppercase;
+}
+
+    
+
+.date, .venue, .city {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: rgba(240, 207, 208, 0.1);
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
+    border-radius: 5%;
+   
+}
+
+
+/*.....................................SCROLLBAR*/
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rosybrown;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(192, 250, 250);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(240, 207, 208);
+  }
+
+
+/*.......................................FOOTER*/
+
+
+footer {
+    
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:80px;
+   text-align: center;
+}
+
+
+.foot li {
+    color: rgb(192, 250, 250);
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: rgb(192, 250, 250);
+}
+
+.foot i {
+    font-size: 100%;
+}
+
+
+
+/*.......................................@MEDIA*/
+
+
+
+/*............BOOT............*/
+
+.container {
+    
+    border:0;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: inline;
+}
+
+.col {
+    background-color: rgba(177, 245, 245, 0,9);
+    z-index: 1;
+    height: 200px;
+    width: 50%;
+    display: block;
+}
+
+.one {
+    width: 100%;
+    background-color: pink;
+}
+
+.two {
+    background-color: red;
+    width: 100%;
+}
+
+.three {
+    width: 100%;
+    background-color: green;
+}
+
+.four {
+    width: 100%;
+    background-color: blue;
+}
+
+
+@media screen and (min-width: 800px) {
+    .row {
+        display: flex;
+        width: 100vw;
+    }
+
+    .row .one {
+        width: 100%;
+        background-color: pink;
+        
+    }
+    
+    .row .two {
+        background-color: red;
+        width: 50%;
+        
+       
+    }
+    
+    .row .three {
+        width: 50%;
+        background-color: green;
+        
+    }
+    
+    .row .four {
+        width: 100%;
+        background-color: blue;
+        
+    }
+
+    .container-lg {
+        margin: 20px;
+        border: 0;
+        padding: 0; 
+      
+    }
+
+
+    }
+
