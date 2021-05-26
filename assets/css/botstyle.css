@@ -101,16 +101,25 @@ header {
 }
 
 
-footer {
-    margin: 0;
+/*.......................................FOOTER*/
 
-}
 
-.footercontainer {
-    font-size: 0;
-    height: auto;
-    margin: 0;
-}
+.container-fluid {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    min-height:120px;
+    text-align: center;
+    display: inline-block;
+    font-size: 100%;
+    color: rgb(155, 47, 14);
+    padding: 20px;
+ }
+ 
+ 
+ 
+ 
+
 
 @media screen and (max-width: 992px) {
     .logo {
