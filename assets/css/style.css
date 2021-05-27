@@ -56,8 +56,8 @@ header {
 }
 
 .color-menu {
-    background-color: rgba(112, 113, 114, 0.945);
-    height: 60px;
+  background-color: rgba(112, 113, 114, 0.2);
+    height: 40px;
     align-items: center;
 }
 
@@ -74,16 +74,16 @@ header {
 #nav li {
     font-size: 1.5rem;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    
 }
 
 #nav li a {
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
     padding-left: 0;
-    
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-family: 'Bubbler One', sans-serif;
     letter-spacing: 3px;
 }
