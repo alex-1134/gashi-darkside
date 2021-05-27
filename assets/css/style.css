@@ -89,12 +89,12 @@ header {
 }
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(188, 143, 143, .3);
     height: 2rem;
 }
 
 .hvr-sweep-to-top:before {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(188, 143, 143, .3);
     height: 2rem;
 }
 
@@ -111,19 +111,20 @@ header {
 
  
  footer {
-    background-color: rgba(112, 113, 114, 0.2);
+    background-color: none;
     min-height: 30px;
-    margin: 0;
     position:fixed;
     bottom:0;
-    text-align: center;
-    display: inline-block;
+    right: 0;
+    text-align: right;
+    display: inline;
 }
 
-.col-sm-3 a {
-    text-align: center;
+.container-fluid a {
     padding-right: 20px;
     color: #fff;
+    float: right;
+    
 }
  
  .bw1 {
@@ -140,7 +141,7 @@ header {
     row-gap: 1px;
     height: 100vh;
     width: 40vw;
-    margin:auto;
+    margin: auto;
   }
 
   .box {
@@ -234,6 +235,90 @@ header {
 }
 
 
+ /*......................................CONTACT*/
+
+ .contact-form {
+  width: 60vw;
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Bubbler One', sans-serif;
+ }
+
+ .form-name {
+   font-weight: 700;
+ }
+
+.btn {
+  background: black;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: rosybrown;
+}
+
+.form-updates {
+  
+  margin: auto;
+  margin-top: 50px;
+  color:black;
+  border: none;
+  text-align: center;
+  font-family: 'Bubbler One', sans-serif;
+  font-weight: 700;
+  box-sizing: border-box;
+  width: 350px;
+  height: 200px; 
+  border-radius: 10%;
+}
+
+.email, .name, .send {
+  display: block;
+  padding-left: 10px;
+  
+}
+
+.legend {
+  text-transform: uppercase;
+  
+  font-size: 100%;
+  margin-left: 10px;
+}
+
+.send {
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: black;
+  color:#fff;
+  text-transform: uppercase;
+  text-align: auto;
+  font-weight: 700;
+  border-radius: 10%;
+}
+
+.send:hover {
+ background-color: rosybrown;
+}
+
+#name-field, #email-field {
+  margin-left: 10px;
+  background-color: #fff;
+  color: black;
+  
+} 
+
+#name-field {
+  border-radius: 2%;
+  border: 1px rgba(82, 82, 82, .3);
+}
+
+#email-field {
+  border-radius: 5%;
+  border-width: 1px;
+  border-color: rgb(82, 82, 82);
+}
+
 @media screen and (max-width: 992px) {
     .logo {
         background-position: unset;
@@ -248,4 +333,8 @@ header {
     .wrapper {
         width: 100vw;
       }
+
+    .contact-form {
+      width: 100vw;
+    }
 }
