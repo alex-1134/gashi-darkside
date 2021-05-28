@@ -138,10 +138,10 @@ header {
     margin-top: 80px;
 }
 
-.col-footer {
- display: inline;
- padding: 0;
- margin: auto;
+  .col-footer {
+  display: inline;
+  padding: 0;
+  margin: auto;
 } 
 
 .foot a {
