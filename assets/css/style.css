@@ -107,21 +107,31 @@ header {
   font-weight: 700;
 }
 
+
+/*.......................................GALLERY*/
+
+.row-gallery {
+  margin-bottom: 40px;
+}
+
 /*.......................................FOOTER*/
 
  
  footer {
     background-color: none;
     min-height: 30px;
-    position:fixed;
+    position: fixed;
     bottom:0;
     right: 0;
-    text-align: right;
-    display: inline;
+    margin-top: 80px;
 }
 
-.container-fluid a {
-    padding-right: 20px;
+.col-footer {
+ display: inline-block;
+}
+
+.foot a {
+    padding-right: 10px;
     color: #fff;
     float: right;
     
@@ -222,18 +232,15 @@ header {
   .box13 {
     grid-column: 1;
     grid-row: 13;
-    margin-bottom: 2px;
+    
   }
-  
+
   .date {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-
     font-size: 1rem;
-
 }
-
 
  /*......................................CONTACT*/
 
@@ -252,6 +259,8 @@ header {
   background: black;
   color: #fff;
   font-weight: 700;
+  border-width: 0;
+  margin-bottom: 80px;
 }
 
 .btn:hover {
