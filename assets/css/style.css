@@ -139,13 +139,14 @@ header {
 }
 
 .col-footer {
- display: inline-block;
-}
+ display: inline;
+ padding: 0;
+ margin: auto;
+} 
 
 .foot a {
-    padding-right: 10px;
-    color: #fff;
-    float: right;
+  color: #fff;  
+   
 }
 
 
@@ -353,6 +354,4 @@ header {
     .contact-form {
       width: 100vw;
     }
-
-    
 }
