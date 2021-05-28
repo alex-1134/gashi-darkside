@@ -110,9 +110,21 @@ header {
 
 /*.......................................GALLERY*/
 
-.row-gallery {
-  margin-bottom: 40px;
+.container {
+  margin-top: 40px;
 }
+
+.container .row {
+  max-width: 100vw;
+  margin: auto;
+  align-items: center;
+} 
+
+.mb-4 {
+  margin: auto;
+  display: block;
+}
+
 
 /*.......................................FOOTER*/
 
@@ -134,12 +146,7 @@ header {
     padding-right: 10px;
     color: #fff;
     float: right;
-    
 }
- 
- .bw1 {
-     background-image: url("../images/bw1.jpg");
- }
 
 
  /*.........................................TOUR*/
@@ -346,4 +353,6 @@ header {
     .contact-form {
       width: 100vw;
     }
+
+    
 }
