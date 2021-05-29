@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
 * {
   box-sizing: border-box;
 }
@@ -10,7 +9,8 @@ body {
   background-color: rgba(112, 113, 114, 0.2);
 }
 
-/*--------------------------------------------HEADING*/
+
+/*......................................HEADING*/
 
 header {
     margin: 0;
@@ -55,6 +55,9 @@ header {
     opacity: 1;
 }
 
+
+/*...........................................MENU*/
+
 .color-menu {
   background-color: rgba(112, 113, 114, 0.2);
     height: 40px;
@@ -73,8 +76,7 @@ header {
 
 #nav li {
     font-size: 1.5rem;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 #nav li a {
@@ -129,7 +131,8 @@ header {
   margin-top: 40px;
 }
 
-/*.......................................GALLERY*/
+
+/*......................................GALLERY*/
 
 .container {
   margin-top: 40px;
@@ -149,7 +152,6 @@ header {
 
 /*.......................................FOOTER*/
  
- 
  footer {
     background-color: none;
     min-height: 30px;
@@ -167,7 +169,6 @@ header {
 
 .foot a {
   color: #fff;  
-   
 }
 
 
@@ -191,15 +192,13 @@ header {
       text-transform: uppercase;
       font-weight: 200;
       margin-top: 20px;
-      vertical-align: auto;
-      
+      vertical-align: auto;     
   }
 
   .wrapper span {
       font-weight: 900; 
   }
 
- 
   .box1 {
     grid-column: 1;
     grid-row: 1;
@@ -261,7 +260,6 @@ header {
   .box13 {
     grid-column: 1;
     grid-row: 13;
-    
   }
 
   .date {
@@ -270,6 +268,7 @@ header {
     text-align: center;
     font-size: 1rem;
 }
+
 
  /*......................................CONTACT*/
 
@@ -297,14 +296,15 @@ header {
 }
 
 .form-updates {
-  
   margin: auto;
   margin-top: 50px;
+
   color:black;
   border: none;
   text-align: center;
   font-family: 'Bubbler One', sans-serif;
   font-weight: 700;
+
   box-sizing: border-box;
   width: 350px;
   height: 200px; 
@@ -314,12 +314,10 @@ header {
 .email, .name, .send {
   display: block;
   padding-left: 10px;
-  
 }
 
 .legend {
   text-transform: uppercase;
-  
   font-size: 100%;
   margin-left: 10px;
 }
@@ -343,7 +341,6 @@ header {
   margin-left: 10px;
   background-color: #fff;
   color: black;
-  
 } 
 
 #name-field {
@@ -356,6 +353,9 @@ header {
   border-width: 1px;
   border-color: rgb(82, 82, 82);
 }
+
+
+/*.......................................@MEDIA*/
 
 @media screen and (min-width: 577px) {
   #nav li a {
@@ -373,9 +373,7 @@ header {
       width:100%;
       margin-top: 80px;
       width: 80vw;
-     }
-
-    
+     }   
 }
 
 @media screen and (max-width: 770px) {
