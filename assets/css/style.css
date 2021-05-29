@@ -63,11 +63,11 @@ header {
     height: 40px;
     align-items: center;
 }
-
+/*
 .row {
     --bs-gutter-x: 0;
 }
-
+*/
 .menucontainer {
     font-size: 0;
     height: auto;
@@ -153,7 +153,6 @@ header {
 /*.......................................FOOTER*/
  
  footer {
-    background-color: none;
     min-height: 30px;
     position: fixed;
     bottom:0;
@@ -192,7 +191,7 @@ header {
       text-transform: uppercase;
       font-weight: 200;
       margin-top: 20px;
-      vertical-align: auto;     
+      vertical-align:auto;   
   }
 
   .wrapper span {
