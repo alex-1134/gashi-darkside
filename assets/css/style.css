@@ -357,6 +357,12 @@ header {
   border-color: rgb(82, 82, 82);
 }
 
+@media screen and (min-width: 577px) {
+  #nav li a {
+    position: fixed;
+  }
+}
+
 @media screen and (max-width: 992px) {
     .logo {
         background-position: unset;
@@ -375,6 +381,10 @@ header {
 @media screen and (max-width: 770px) {
   .doco, .doco-alert {
       display: none;
+    }
+
+    #nav li a {
+      position: initial;
     }
 }
 

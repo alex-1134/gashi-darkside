@@ -1,52 +1,91 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Milestone Project: User-Centric Frontend Development (HTML5 / CSS3)**
 
-Welcome alex-1134,
+*Note: crossed off sections are yet to be completed in the project.*
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+~~Desribe the brief here~~
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## **UX**
 
-`python3 -m http.server`
+I designed the website as a platform for the artist's fans to become familiar with the latest updates on Gashi and also get some extra content like videos and a gallery, along with access to his social media. The target audience for this particular project is young (mainly people in their twenties and early thirties) therefore they are more likely to use the application on their mobile phones rather than computers. The age of users was also a factor in including more images and videos instead of focusing on text (hence the lack of "About" section which would have been a lot of text).
 
-A blue button should appear to click: _Make Public_,
+The website is built with four separate pages:
+* Home
+* Gallery
+* Tour 
+* Contact
 
-Another blue button should appear to click: _Open Browser_.
+As mentioned before, originally the page was supposed to contain “About” section but after researching a range of other musician website in similar music field, I came to the conclusion that it is not important or desirable. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Most of the musician-related websites that I visited, were colourful and had a lot of content, therefore for Gashi's website I chose to use mainly shades of gray with very little colour to make it stand out. It also goes with his general image - his album covers are very simple and easy on the eye. 
 
-A blue button should appear to click: _Make Public_,
+I have included wireframes for my project, however after making the decision to go with the gray scale option, I decided to change the design of the website since the original idea was more fitted with a wider colour range.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI you can use:
+## **Features**
 
-`heroku login -i`
+### Existing Features
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+* **Navigation bar**
 
-## Updates Since The Instructional Video
+Fully responsive navigation bar featured on all four pages. Includes links to all the pages and also a link to " Home" in the logo. Changes its size on small devices, to save the limited space on the screen. It is also fixed on the bigger screen sizes.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* ~~**Back to top button**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Each page contains “back to top” button for  easy navigation through each individual page.~~
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* **Alert bar**
+ 
+The alert bar on the home page (on larger devices) brings attention to the featured videos.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* **Videos**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Embedded videos are available in full screen mode. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* **Contact form**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The last page is a contact form which allows fans and other professionals contact Gashi's team with whatever questions and requests they may have. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* **Gallery**
 
----
+The Gallery provides fans with some additional, "arty" images of Gashi.
 
-Happy coding!
+
+### Future Features 
+
+* An online store.
+
+* Email list.
+
+
+## **Testing**
+
+**Browser compatibility**
+
+
+I tested the  website on all major browsers (mobile and desktop formats). 
+All elements are responsive and the content works properly.
+Breakpoints respond accordingly.
+Navbar changes format as expected.
+
+Site was tested on following browsers:
+* Chrome
+* Safari
+* Opera
+* Firefox
+
+
+~~code test~~
+
+
+**Deployment**
+
+The page was deployed to GitHub pages. 
+In the GitHub repository, I went to Settings tab and selected the Master Branch. After a few minutes the website was live.
+The link to the deployed Gashi website can be found here: https://alex-1134.github.io/gashi-darkside/ .
+
+
+## ~~**Credits**~~
+
+
