@@ -31,9 +31,9 @@ I have included wireframes for my project, however after making the decision to 
 
 Fully responsive navigation bar featured on all four pages. Includes links to all the pages and also a link to " Home" in the logo. Changes its size on small devices, to save the limited space on the screen. It is also fixed on the bigger screen sizes.
 
-* ~~**Back to top button**
+* ~~**Back to top button**~~
 
-Each page contains “back to top” button for  easy navigation through each individual page.~~
+Each page contains “back to top” button for  easy navigation through each individual page.
 
 * **Alert bar**
  
