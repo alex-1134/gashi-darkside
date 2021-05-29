@@ -108,6 +108,27 @@ header {
 }
 
 
+
+/*.......................................IFRAME*/
+
+.container-iframe {
+  text-align:center;
+  margin: auto;
+  width:100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.alert {
+  text-align: center;
+  font-family:  'Bubbler One', sans-serif;
+  color: rgba(188, 143, 143, 0.8);
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
 /*.......................................GALLERY*/
 
 .container {
@@ -127,7 +148,7 @@ header {
 
 
 /*.......................................FOOTER*/
-
+ 
  
  footer {
     background-color: none;
@@ -340,6 +361,21 @@ header {
     .logo {
         background-position: unset;
     }
+
+    .container-iframe {
+      text-align:center;
+      width:100%;
+      margin-top: 80px;
+      width: 80vw;
+     }
+
+    
+}
+
+@media screen and (max-width: 770px) {
+  .doco, .doco-alert {
+      display: none;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -353,5 +389,13 @@ header {
 
     .contact-form {
       width: 100vw;
+    }
+
+    .container-iframe {
+      display: none;
+    }
+
+    .alert {
+      display: none;
     }
 }
