@@ -5,6 +5,15 @@
 ~~Desribe the brief here~~
 
 
+
+The aim of this project was to build a static front-end site and to present data that helps the user to learn about the product.
+
+## **Main Technologies used in the project**
+
+* HTML5
+* CSS3
+* Bootstrap 5
+
 ## **UX**
 
 I designed the website as a platform for the artist's fans to become familiar with the latest updates on Gashi and also get some extra content like videos and a gallery, along with access to his social media. The target audience for this particular project is young (mainly people in their twenties and early thirties) therefore they are more likely to use the application on their mobile phones rather than computers. The age of users was also a factor in including more images and videos instead of focusing on text (hence the lack of "About" section which would have been a lot of text).
@@ -89,3 +98,26 @@ The link to the deployed Gashi website can be found here: https://alex-1134.gith
 ## ~~**Credits**~~
 
 
+Photos
+
+1 DANIEL PRAKOPCYK https://www.huffpost.com/entry/gashi-son-refugees_n_5d8e4c27e4b0e9e7604c8b32
+
+2 https://twitter.com/gashi/status/1156627177951023104/photo/1
+
+3 https://www.pinterest.at/udhahababba/gashi/
+
+4 https://issuu.com/outnext/docs/bello192/s/162253
+
+5 https://twitter.com/gashi/status/1305541178796908553
+
+7 https://twitter.com/gashi/status/1210299948069249026
+
+8 https://www.crookesmagazine.com/music/gashi/
+
+10 https://hollywoodlife.com/pics/gashi-exclusive-photos-pics/
+
+9 11 12 14  https://9oo10magazine.com/GASHI
+
+6 13 15  https://www.pentagonmagazine.com/albanian-hip-hop-artist-gashi-is-a-true-exemplification-of-this/ Niklas Haze
+
+Album cover: https://twitter.com/gashi/status/1204526178800943105
