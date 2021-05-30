@@ -157,17 +157,22 @@ header {
     position: fixed;
     bottom:0;
     right: 0;
+    margin: auto;
     margin-top: 80px;
 }
 
   .col-footer {
   display: inline;
   padding: 0;
-  margin: auto;
+  margin-right: 300px;
+
+
+
+  
 } 
 
 .foot a {
-  color: #fff;  
+  color: red;  
 }
 
 
