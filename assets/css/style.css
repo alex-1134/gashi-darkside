@@ -153,27 +153,28 @@ header {
 /*.......................................FOOTER*/
  
  footer {
-    min-height: 30px;
+   
     position: fixed;
-    bottom:0;
-    right: 0;
-    margin: auto;
-    margin-top: 80px;
+  bottom: 0;
+   
+  
+ 
 }
 
   .col-footer {
-  display: inline;
-  padding: 0;
-  margin-right: 300px;
-
-
-
-  
-} 
+  margin-left: 200px;
+    margin-right: 200px;
+    display: inline;
+    padding-right: 10px;
+}
+ 
 
 .foot a {
-  color: red;  
-}
+  
+    color: red; 
+    
+    
+  }
 
 
  /*.........................................TOUR*/
