@@ -63,11 +63,11 @@ header {
     height: 40px;
     align-items: center;
 }
-/*
+
 .row {
     --bs-gutter-x: 0;
 }
-*/
+
 .menucontainer {
     font-size: 0;
     height: auto;
@@ -108,7 +108,6 @@ header {
 .active {
   font-weight: 700;
 }
-
 
 
 /*.......................................IFRAME*/
@@ -152,29 +151,19 @@ header {
 
 /*.......................................FOOTER*/
  
- footer {
-   
-    position: fixed;
+.footer {
+  position: fixed;
+  left: 0;
   bottom: 0;
-   
+  width: 100%;
   
- 
 }
 
-  .col-footer {
-  margin-left: 200px;
-    margin-right: 200px;
-    display: inline;
-    padding-right: 10px;
+.footer a {
+  color: black;
+  text-align: center;
+  display: inline-block;
 }
- 
-
-.foot a {
-  
-    color: red; 
-    
-    
-  }
 
 
  /*.........................................TOUR*/
@@ -358,6 +347,7 @@ header {
   border-width: 1px;
   border-color: rgb(82, 82, 82);
 }
+
 
 
 /*.......................................@MEDIA*/

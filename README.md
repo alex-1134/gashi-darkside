@@ -1,11 +1,5 @@
 # **Milestone Project: User-Centric Frontend Development (HTML5 / CSS3)**
 
-*Note: crossed off sections are yet to be completed in the project.*
-
-~~Desribe the brief here~~
-
-
-
 The aim of this project was to build a static front-end site and to present data that helps the user to learn about the product.
 
 ## **Main Technologies used in the project**
@@ -13,6 +7,8 @@ The aim of this project was to build a static front-end site and to present data
 * HTML5
 * CSS3
 * Bootstrap 5
+* CDNJS-hover
+* Font Awesome
 
 ## **UX**
 
@@ -39,10 +35,6 @@ I have included wireframes for my project, however after making the decision to 
 * **Navigation bar**
 
 Fully responsive navigation bar featured on all four pages. Includes links to all the pages and also a link to " Home" in the logo. Changes its size on small devices, to save the limited space on the screen. It is also fixed on the bigger screen sizes.
-
-* ~~**Back to top button**~~
-
-Each page contains “back to top” button for  easy navigation through each individual page.
 
 * **Alert bar**
  
@@ -85,13 +77,11 @@ Site was tested on following browsers:
 * Firefox
 
 
-~~code test~~
-
-
 **Deployment**
 
-The page was deployed to GitHub pages. 
-In the GitHub repository, I went to Settings tab and selected the Master Branch. After a few minutes the website was live.
+* The page was deployed to GitHub pages. 
+* In the GitHub repository, I went to Settings tab and selected the Master Branch. 
+* After a few minutes the website was live.
 The link to the deployed Gashi website can be found here: https://alex-1134.github.io/gashi-darkside/ .
 
 
@@ -100,7 +90,7 @@ The link to the deployed Gashi website can be found here: https://alex-1134.gith
 
 Photos
 
-1 DANIEL PRAKOPCYK https://www.huffpost.com/entry/gashi-son-refugees_n_5d8e4c27e4b0e9e7604c8b32
+1 https://www.huffpost.com/entry/gashi-son-refugees_n_5d8e4c27e4b0e9e7604c8b32
 
 2 https://twitter.com/gashi/status/1156627177951023104/photo/1
 
@@ -121,3 +111,7 @@ Photos
 6 13 15  https://www.pentagonmagazine.com/albanian-hip-hop-artist-gashi-is-a-true-exemplification-of-this/ Niklas Haze
 
 Album cover: https://twitter.com/gashi/status/1204526178800943105
+
+
+I used this tutorial to understand CSS grid better. 
+https://www.youtube.com/watch?v=9zBsdzdE4sM&t=456s
