@@ -153,15 +153,14 @@ header {
  
 .footer {
   position: fixed;
-  clear: both;
   bottom: 0;
   width: 100%;
-  
 }
 
-.footer li {
+.footer a {
   color: black;
-  text-align: center;display: inline;
+  text-align: center;
+  display: inline;
 }
 
 
