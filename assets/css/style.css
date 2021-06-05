@@ -159,7 +159,7 @@ header {
 
 .footer a {
   text-align: center;
-  display: block;
+  display: inline;
 }
 
 
