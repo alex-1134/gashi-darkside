@@ -88,7 +88,7 @@ The link to the deployed Gashi website can be found here: https://alex-1134.gith
 ## **Credits**
 
 
-Photos
+**Photos**
 
 1 https://www.huffpost.com/entry/gashi-son-refugees_n_5d8e4c27e4b0e9e7604c8b32
 
