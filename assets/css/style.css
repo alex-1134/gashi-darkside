@@ -100,7 +100,6 @@ header {
     height: 2rem;
 }
 
-
 .list-inline-item:not(:last-child) {
    margin: 0;
 }
@@ -160,7 +159,7 @@ header {
 
 .footer a {
   text-align: center;
-  display: inline;
+  display: block;
 }
 
 
