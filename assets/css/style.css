@@ -153,6 +153,7 @@ header {
 .footer {
   position: fixed;
   bottom: 0;
+  float: left;
   width: 100%;
   color: black;
 }
@@ -160,6 +161,7 @@ header {
 .footer a {
   text-align: center;
   display: inline;
+  color: black;
 }
 
 
