@@ -20,12 +20,12 @@ The website is built with four separate pages:
 * Tour 
 * Contact
 
+I have included wireframes for my project, however after making the decision to go with the gray scale option, I decided to change the design of the website since the original idea was more fitted with a wider colour range.
+* https://github.com/alex-1134/gashi-darkside/tree/master/assets/images
+
 As mentioned before, originally the page was supposed to contain “About” section but after researching a range of other musician website in similar music field, I came to the conclusion that it is not important or desirable. 
 
 Most of the musician-related websites that I visited, were colourful and had a lot of content, therefore for Gashi's website I chose to use mainly shades of gray with very little colour to make it stand out. It also goes with his general image - his album covers are very simple and easy on the eye. 
-
-I have included wireframes for my project, however after making the decision to go with the gray scale option, I decided to change the design of the website since the original idea was more fitted with a wider colour range.
-
 
 
 ## **Features**
@@ -85,7 +85,7 @@ Site was tested on following browsers:
 The link to the deployed Gashi website can be found here: https://alex-1134.github.io/gashi-darkside/ .
 
 
-## ~~**Credits**~~
+## **Credits**
 
 
 Photos

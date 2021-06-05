@@ -153,16 +153,15 @@ header {
  
 .footer {
   position: fixed;
-  left: 0;
+  clear: both;
   bottom: 0;
   width: 100%;
   
 }
 
-.footer a {
+.footer li {
   color: black;
-  text-align: center;
-  display: inline-block;
+  text-align: center;display: inline;
 }
 
 
@@ -186,7 +185,7 @@ header {
       text-transform: uppercase;
       font-weight: 200;
       margin-top: 20px;
-      vertical-align:auto;   
+      vertical-align: middle;   
   }
 
   .wrapper span {
@@ -322,7 +321,7 @@ header {
   background-color: black;
   color:#fff;
   text-transform: uppercase;
-  text-align: auto;
+  text-align: middle;
   font-weight: 700;
   border-radius: 10%;
 }
